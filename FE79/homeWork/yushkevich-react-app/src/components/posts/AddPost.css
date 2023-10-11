@@ -1,0 +1,40 @@
+.add-post {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.add-post input {
+    border-radius: 0;
+}
+
+.add-post h2 {
+    margin-bottom: 10px;
+}
+
+.add-post .btn-primary {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: end;
+}
+
+.add-post button:first-child {
+    margin-right: 5px;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-row .mb-3 {
+    width: 50%;
+}
+
+.first-row .mb-3:first-child {
+    margin-right: 5px;
+}

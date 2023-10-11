@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    position: fixed;
+}
+
+.header button {
+    width: 50px;
+    color: #fff;
+    background-color: blue;
+}
+
+.header .search-input {
+    background-color: rgba(89, 99, 197);
+    color: #fff;
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: blue;
+    color: #fff;
+}
+
+.user .user-avatar {
+    margin-right: 10px;
+    padding: 5px;
+    background-color: rgba(89, 99, 197);
+    border-radius: 5px;
+}  
+
+.burger-menu {
+    position: fixed;
+    margin-top: 50px;
+    width: 160px;
+}
+
+.burger-menu button {
+    width: 50%;
+    padding: 10px 0;
+    background: #fff;
+}
+
+.burger-menu button:hover {
+    background-color: lightgray;
+}
+
+.dark-burger-menu button{
+    background-color: #2F2F2F;
+    color: lightgray;
+}
+
+.dark-burger-menu button:hover {
+    background-color: lightgrey;
+}
+
+.burger-menu .page-link{
+    background-color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.burger-menu .page-link:hover {
+    background-color: lightgrey;
+}
+
+.burger-menu .page-link a {
+    text-decoration: none;
+    color: #2F2F2F;
+}
+
+.burger-menu .dark-page-link {
+    background-color: #2F2F2F;
+    color: lightgray;
+}
+
+.burger-menu .dark-page-link a{
+    color: lightgray;
+}
+
+.theme-buttons {
+    border: 1px solid #2F2F2F;
+}

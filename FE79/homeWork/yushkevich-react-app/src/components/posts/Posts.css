@@ -1,0 +1,41 @@
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-footer button {
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.post-votes {
+    min-width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts-row {
+    margin-bottom: 10px;
+}
+
+.row > .container:hover {
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+.row > .container {
+    padding: 10px;
+}
+
+.single-post:hover {
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+.single-post {
+    padding: 10px;
+}
+
+.post-like-amount {
+    display: flex;
+    align-items: center;
+}

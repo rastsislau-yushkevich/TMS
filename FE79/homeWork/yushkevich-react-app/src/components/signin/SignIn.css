@@ -1,0 +1,36 @@
+.sign-in-body {
+    width: 75%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.sign-in-form {
+    width: 32%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid lightgrey;
+}
+
+.sign-in-form input {
+    border-radius: 0;
+}
+
+.sign-in-btn {
+    width: 100%;
+    border-radius: 0;
+}
+
+.no-account-text {
+    display: flex;
+    justify-content: center;
+}
+
+.light-sign-in-form {
+    border: 1px solid lightgrey;
+    color: black;
+}
+
+.dark-sign-in-form {
+    border: 1px solid darkgray;
+    color: lightgray;
+}

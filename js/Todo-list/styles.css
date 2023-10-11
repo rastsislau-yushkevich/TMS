@@ -1,0 +1,116 @@
+#root {
+    max-width: 750px;
+    margin: 0 auto;
+    border: 2px #000 solid;
+    border-radius: 15px;
+    background-color: silver;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.menu__deleteAllBtn {
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.menu__addInput {
+    border-radius: 10px;
+    min-width: 350px;
+    text-align: center;
+}
+
+.menu__addBtn {
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.taskList {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.taskList__elem {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px #000 solid;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.taskList__elemCol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.taskElem__clearCheckBox {
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 50px;
+    height: 30px;
+    transform: translateY(-0.075em);
+    border: #000 2px solid;
+    border-radius: 5px;
+}
+
+.taskElem__clearCheckBox::before {
+    width: 50px;
+    height: 30px;
+}
+
+.taskElem__clearCheckBox:checked::before {
+    content: "✓";
+    display: block;
+    width: 46px;
+    height: 26px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskElem__info {
+    background-color: #fff;
+    min-width: 200px;
+    border: #000 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.taskElem__info-toggle {
+    text-decoration: line-through;
+}
+
+.taskElem__delBtn {
+    width: 46px;
+    height: 26px;
+    background-color: aqua;
+    margin-bottom: 5px;
+    border: #000 2px solid;
+    border-radius: 5px;
+}
+
+.taskElem__date {
+    background-color: #fff;
+    border: #000 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.taskList__elem-toggle {
+    opacity: 0.5;
+}
+
+

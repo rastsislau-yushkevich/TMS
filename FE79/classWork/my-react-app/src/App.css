@@ -1,0 +1,15 @@
+.dark-app-container {
+    background-color: rgb(8, 16, 23);
+}
+
+.light-app-container {
+    background-color: aliceblue;
+}
+
+.dark-title {
+    color: lightgray;
+}
+
+.light-title {
+    color: black;
+}

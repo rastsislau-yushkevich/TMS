@@ -1,0 +1,54 @@
+.post-footer button {
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.post-votes {
+    min-width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.search-results {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.searched-main {
+    max-width: 1140px;
+    display: flex;
+}
+
+.searched-post {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+.searched-post .post-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.searched-post .post-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-main-info .post-date {
+    color: lightgrey;
+}
+
+.searched-post:hover {
+    box-shadow: 5px 5px 5px lightgray;
+}

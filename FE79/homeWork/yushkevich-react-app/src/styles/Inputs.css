@@ -1,0 +1,51 @@
+body {
+    background-color: bisque;
+}
+
+label {
+    margin: 10px 0;
+}
+
+input, textarea, label {
+    display: block;
+}
+
+.input {
+    height: 25px;
+    border-radius: 0;
+}
+
+.default {
+    border: none;
+}
+
+.focus {
+    border: 1px solid grey;
+}
+
+.active {
+    border: none;
+}
+
+.active::placeholder {
+    color: #000;
+}
+
+.disabled {
+    background-color: rgba(189, 195, 199, 0.5);
+    opacity: 1;
+    border: none;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.label-error {
+    color: red;
+}
+
+.error::placeholder {
+    color: #000;
+}
+
